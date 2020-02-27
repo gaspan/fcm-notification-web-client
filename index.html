@@ -50,18 +50,18 @@
         // Initialize Firebase
         // TODO: Replace with your project's customized code snippet
         var config = {
-            apiKey: "AIzaSyAs8HV_qMqW7RFOXIRUhnOG9T8LD0tvmV0",
-            authDomain: "mahasiswa-e6338.firebaseapp.com",
-            databaseURL: "https://mahasiswa-e6338.firebaseio.com",
-            projectId: "mahasiswa-e6338",
-            storageBucket: "mahasiswa-e6338.appspot.com",
-            messagingSenderId: "613872465316",
-            appId: "1:613872465316:web:9d45ea48f99689b95fbd31"
+            apiKey: "",
+            authDomain: "",
+            databaseURL: "",
+            projectId: "",
+            storageBucket: "",
+            messagingSenderId: "",
+            appId: ""
         };
         firebase.initializeApp(config);
 
         const messaging = firebase.messaging();
-        messaging.usePublicVapidKey("BDkRBausearZrw722Xjtrg_qxZOJYF6gorTgvL8hzf43RLk6gjf-kXZiVFKBM3pGvIWy95ra36rGQKq2WVIUWaY");
+        messaging.usePublicVapidKey("");
         messaging
             .requestPermission()
             .then(function () {
